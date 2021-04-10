@@ -17,6 +17,7 @@ public Long getId() {
 	return id;
 }
 public void setId(Long id) {
+		System.out.println("id: " + id);
 	this.id = id;
 }
 public String getName() {
